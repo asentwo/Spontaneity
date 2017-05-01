@@ -7,17 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E2DA2651EB7DFFE00CDF552 /* UI Files in Resources */ = {isa = PBXBuildFile; fileRef = 6E2DA2641EB7DFFE00CDF552 /* UI Files */; };
+		6E2DA26A1EB7E2E800CDF552 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2DA2691EB7E2E800CDF552 /* RegistrationViewController.swift */; };
+		6E2DA26C1EB7E32900CDF552 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2DA26B1EB7E32900CDF552 /* LoginViewController.swift */; };
+		6E2DA26E1EB7E33600CDF552 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2DA26D1EB7E33600CDF552 /* SignUpViewController.swift */; };
+		6E2DA2711EB7E36700CDF552 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2DA2701EB7E36700CDF552 /* HomepageViewController.swift */; };
+		6E2DA2731EB7E37F00CDF552 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2DA2721EB7E37F00CDF552 /* RestaurantViewController.swift */; };
+		6E2DA2751EB7E39000CDF552 /* MeetMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2DA2741EB7E39000CDF552 /* MeetMeViewController.swift */; };
+		6E2DA2771EB7E3A300CDF552 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2DA2761EB7E3A300CDF552 /* ProfileViewController.swift */; };
+		6E2DA2791EB7E3D500CDF552 /* MatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2DA2781EB7E3D500CDF552 /* MatchesViewController.swift */; };
+		6E2DA27B1EB7E40900CDF552 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2DA27A1EB7E40900CDF552 /* MessagesViewController.swift */; };
+		6E2DA27D1EB7E42D00CDF552 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2DA27C1EB7E42D00CDF552 /* SettingsViewController.swift */; };
 		6E5906AE1EB16B50004CBD56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5906AD1EB16B50004CBD56 /* AppDelegate.swift */; };
-		6E5906B01EB16B50004CBD56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5906AF1EB16B50004CBD56 /* ViewController.swift */; };
+		6E5906B01EB16B50004CBD56 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5906AF1EB16B50004CBD56 /* IntroViewController.swift */; };
 		6E5906B31EB16B50004CBD56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5906B11EB16B50004CBD56 /* Main.storyboard */; };
 		6E5906B51EB16B50004CBD56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5906B41EB16B50004CBD56 /* Assets.xcassets */; };
 		6E5906B81EB16B50004CBD56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5906B61EB16B50004CBD56 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E2DA2641EB7DFFE00CDF552 /* UI Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "UI Files"; sourceTree = "<group>"; };
+		6E2DA2691EB7E2E800CDF552 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		6E2DA26B1EB7E32900CDF552 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6E2DA26D1EB7E33600CDF552 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6E2DA2701EB7E36700CDF552 /* HomepageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
+		6E2DA2721EB7E37F00CDF552 /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		6E2DA2741EB7E39000CDF552 /* MeetMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetMeViewController.swift; sourceTree = "<group>"; };
+		6E2DA2761EB7E3A300CDF552 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6E2DA2781EB7E3D500CDF552 /* MatchesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesViewController.swift; sourceTree = "<group>"; };
+		6E2DA27A1EB7E40900CDF552 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		6E2DA27C1EB7E42D00CDF552 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		6E5906AA1EB16B50004CBD56 /* Spontaneity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spontaneity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5906AD1EB16B50004CBD56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E5906AF1EB16B50004CBD56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E5906AF1EB16B50004CBD56 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		6E5906B21EB16B50004CBD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E5906B41EB16B50004CBD56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E5906B71EB16B50004CBD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +57,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E2DA2661EB7E27B00CDF552 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E2DA26F1EB7E34800CDF552 /* Login/SignUp */,
+				6E2DA27F1EB7E51900CDF552 /* Main/ System */,
+				6E2DA27E1EB7E50300CDF552 /* Matches */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6E2DA2671EB7E28500CDF552 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E5906B61EB16B50004CBD56 /* LaunchScreen.storyboard */,
+				6E2DA2641EB7DFFE00CDF552 /* UI Files */,
+				6E5906B41EB16B50004CBD56 /* Assets.xcassets */,
+				6E5906B11EB16B50004CBD56 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6E2DA2681EB7E28B00CDF552 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				6E5906B91EB16B50004CBD56 /* Info.plist */,
+				6E5906AD1EB16B50004CBD56 /* AppDelegate.swift */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		6E2DA26F1EB7E34800CDF552 /* Login/SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				6E2DA2691EB7E2E800CDF552 /* RegistrationViewController.swift */,
+				6E2DA26B1EB7E32900CDF552 /* LoginViewController.swift */,
+				6E2DA26D1EB7E33600CDF552 /* SignUpViewController.swift */,
+				6E5906AF1EB16B50004CBD56 /* IntroViewController.swift */,
+			);
+			name = Login/SignUp;
+			sourceTree = "<group>";
+		};
+		6E2DA27E1EB7E50300CDF552 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				6E2DA2741EB7E39000CDF552 /* MeetMeViewController.swift */,
+				6E2DA2721EB7E37F00CDF552 /* RestaurantViewController.swift */,
+				6E2DA27A1EB7E40900CDF552 /* MessagesViewController.swift */,
+				6E2DA2781EB7E3D500CDF552 /* MatchesViewController.swift */,
+			);
+			name = Matches;
+			sourceTree = "<group>";
+		};
+		6E2DA27F1EB7E51900CDF552 /* Main/ System */ = {
+			isa = PBXGroup;
+			children = (
+				6E2DA2761EB7E3A300CDF552 /* ProfileViewController.swift */,
+				6E2DA27C1EB7E42D00CDF552 /* SettingsViewController.swift */,
+				6E2DA2701EB7E36700CDF552 /* HomepageViewController.swift */,
+			);
+			name = "Main/ System";
+			sourceTree = "<group>";
+		};
 		6E5906A11EB16B50004CBD56 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +138,9 @@
 		6E5906AC1EB16B50004CBD56 /* Spontaneity */ = {
 			isa = PBXGroup;
 			children = (
-				6E5906AD1EB16B50004CBD56 /* AppDelegate.swift */,
-				6E5906AF1EB16B50004CBD56 /* ViewController.swift */,
-				6E5906B11EB16B50004CBD56 /* Main.storyboard */,
-				6E5906B41EB16B50004CBD56 /* Assets.xcassets */,
-				6E5906B61EB16B50004CBD56 /* LaunchScreen.storyboard */,
-				6E5906B91EB16B50004CBD56 /* Info.plist */,
+				6E2DA2681EB7E28B00CDF552 /* System */,
+				6E2DA2671EB7E28500CDF552 /* Views */,
+				6E2DA2661EB7E27B00CDF552 /* Controllers */,
 			);
 			path = Spontaneity;
 			sourceTree = "<group>";
@@ -126,6 +207,7 @@
 			files = (
 				6E5906B81EB16B50004CBD56 /* LaunchScreen.storyboard in Resources */,
 				6E5906B51EB16B50004CBD56 /* Assets.xcassets in Resources */,
+				6E2DA2651EB7DFFE00CDF552 /* UI Files in Resources */,
 				6E5906B31EB16B50004CBD56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +219,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E5906B01EB16B50004CBD56 /* ViewController.swift in Sources */,
+				6E2DA26C1EB7E32900CDF552 /* LoginViewController.swift in Sources */,
+				6E2DA2751EB7E39000CDF552 /* MeetMeViewController.swift in Sources */,
+				6E2DA2791EB7E3D500CDF552 /* MatchesViewController.swift in Sources */,
+				6E2DA26A1EB7E2E800CDF552 /* RegistrationViewController.swift in Sources */,
+				6E2DA2731EB7E37F00CDF552 /* RestaurantViewController.swift in Sources */,
+				6E2DA2711EB7E36700CDF552 /* HomepageViewController.swift in Sources */,
+				6E5906B01EB16B50004CBD56 /* IntroViewController.swift in Sources */,
+				6E2DA2771EB7E3A300CDF552 /* ProfileViewController.swift in Sources */,
 				6E5906AE1EB16B50004CBD56 /* AppDelegate.swift in Sources */,
+				6E2DA27B1EB7E40900CDF552 /* MessagesViewController.swift in Sources */,
+				6E2DA26E1EB7E33600CDF552 /* SignUpViewController.swift in Sources */,
+				6E2DA27D1EB7E42D00CDF552 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +394,7 @@
 				6E5906BE1EB16B50004CBD56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
