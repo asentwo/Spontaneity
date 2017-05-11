@@ -11,10 +11,20 @@ import UIKit
 
 class RegistrationViewController: UIViewController {
   
+  
+  @IBOutlet weak var signUpTextField: UITextField!
+  @IBOutlet weak var logInTextField: UITextField!
+  
+  
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    
+   signUpTextField.attributedPlaceholder = placeHolder("Sign Up")
+    logInTextField.attributedPlaceholder = placeHolder("Log In")
   }
   
+
   
 }
