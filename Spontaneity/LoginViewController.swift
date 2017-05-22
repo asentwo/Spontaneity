@@ -10,11 +10,21 @@ import Foundation
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: BaseViewController {
+  
+  
+  @IBOutlet weak var emailTextField: UITextField!
+  @IBOutlet weak var passwordTextField: UITextField!
+  
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    
+    setNavBar()
+    
+    emailTextField.attributedPlaceholder = placeHolder("email")
+    passwordTextField.attributedPlaceholder = placeHolder("password")
   }
   
   

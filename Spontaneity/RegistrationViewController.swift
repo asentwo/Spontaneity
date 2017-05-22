@@ -9,22 +9,23 @@
 import Foundation
 import UIKit
 
-class RegistrationViewController: UIViewController {
+class RegistrationViewController: BaseViewController {
   
   
-  @IBOutlet weak var signUpTextField: UITextField!
-  @IBOutlet weak var logInTextField: UITextField!
-  
+  @IBOutlet weak var forgetPasswordButton: UIButton!
   
   
   override func viewDidLoad() {
     super.viewDidLoad()
+   
     
-    
-   signUpTextField.attributedPlaceholder = placeHolder("Sign Up")
-    logInTextField.attributedPlaceholder = placeHolder("Log In")
+    forgetPasswordButton.titleLabel?.minimumScaleFactor = 0.5
+    forgetPasswordButton.titleLabel?.numberOfLines = 1
+    forgetPasswordButton.titleLabel?.adjustsFontSizeToFitWidth = true
+
   }
   
 
+  
   
 }

@@ -4,6 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>NeutraText-Book.otf</string>
 		<string>NeutraText-Light.otf</string>
 		<string>NeutraText-Bold.otf</string>
 	</array>

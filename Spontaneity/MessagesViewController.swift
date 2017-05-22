@@ -11,6 +11,10 @@ import UIKit
 
 class MessagesViewController: UIViewController {
   
+  
+  
+  let reuseIdentifier = "messagesCell"
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     

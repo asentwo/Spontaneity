@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,21 +27,22 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SpontaneityLogo" translatesAutoresizingMaskIntoConstraints="NO" id="l9E-D3-7Kk">
-                                <rect key="frame" x="184" y="291" width="14" height="87"/>
+                                <rect key="frame" x="82" y="298.5" width="211" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="l9E-D3-7Kk" secondAttribute="height" multiplier="321:106" id="Tjd-Mq-N3e"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="l9E-D3-7Kk" secondAttribute="trailing" constant="161" id="ASh-b0-LdY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="l9E-D3-7Kk" secondAttribute="trailing" constant="66" id="0T1-yH-I8W"/>
                             <constraint firstItem="l9E-D3-7Kk" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Aax-Tp-jy0"/>
                             <constraint firstItem="l9E-D3-7Kk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Bpq-AH-aeR"/>
                             <constraint firstItem="1rY-O4-EKg" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Dhy-Lk-JI1"/>
                             <constraint firstAttribute="trailing" secondItem="1rY-O4-EKg" secondAttribute="trailing" id="VQi-x3-gov"/>
                             <constraint firstItem="1rY-O4-EKg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Xnm-SV-uZ8"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="1rY-O4-EKg" secondAttribute="bottom" id="fbc-Kr-pug"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="l9E-D3-7Kk" secondAttribute="bottom" constant="289" id="s2D-By-HVe"/>
-                            <constraint firstItem="l9E-D3-7Kk" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="271" id="x51-0d-wSZ"/>
-                            <constraint firstItem="l9E-D3-7Kk" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="168" id="yPw-5D-qvG"/>
+                            <constraint firstItem="l9E-D3-7Kk" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="66" id="mgq-Rz-AwA"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -50,7 +52,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Main_Background" width="2251" height="4001"/>
-        <image name="SpontaneityLogo" width="643" height="213"/>
+        <image name="Main_Background" width="1125" height="2000"/>
+        <image name="SpontaneityLogo" width="321" height="106"/>
     </resources>
 </document>
