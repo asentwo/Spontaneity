@@ -21,9 +21,9 @@
 		6E47AB161EC510720040C447 /* NeutraText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E47AB151EC5106E0040C447 /* NeutraText-Light.otf */; };
 		6E4FF5391EC29F9200CB8B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4FF5381EC29F9200CB8B97 /* Assets.xcassets */; };
 		6E5906AE1EB16B50004CBD56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5906AD1EB16B50004CBD56 /* AppDelegate.swift */; };
-		6E5906B01EB16B50004CBD56 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5906AF1EB16B50004CBD56 /* IntroViewController.swift */; };
 		6E5906B31EB16B50004CBD56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5906B11EB16B50004CBD56 /* Main.storyboard */; };
 		6E5906B81EB16B50004CBD56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5906B61EB16B50004CBD56 /* LaunchScreen.storyboard */; };
+		6E99160A1ED3B6C30007E249 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9916091ED3B6C30007E249 /* EditProfileViewController.swift */; };
 		6EFEBC141ECF7D5700281CAF /* NeutraText-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6EFEBC131ECF7D3500281CAF /* NeutraText-Book.otf */; };
 		6EFEBC161ECF887600281CAF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFEBC151ECF887600281CAF /* BaseViewController.swift */; };
 		6EFEBC191ECF8C8A00281CAF /* restaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFEBC181ECF8C8A00281CAF /* restaurantCell.swift */; };
@@ -46,10 +46,10 @@
 		6E4FF5381EC29F9200CB8B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E5906AA1EB16B50004CBD56 /* Spontaneity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spontaneity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5906AD1EB16B50004CBD56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E5906AF1EB16B50004CBD56 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		6E5906B21EB16B50004CBD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E5906B71EB16B50004CBD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E5906B91EB16B50004CBD56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E9916091ED3B6C30007E249 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		6EFEBC131ECF7D3500281CAF /* NeutraText-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraText-Book.otf"; sourceTree = "<group>"; };
 		6EFEBC151ECF887600281CAF /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		6EFEBC181ECF8C8A00281CAF /* restaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restaurantCell.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 				6E2DA2691EB7E2E800CDF552 /* RegistrationViewController.swift */,
 				6E2DA26B1EB7E32900CDF552 /* LoginViewController.swift */,
 				6E2DA26D1EB7E33600CDF552 /* SignUpViewController.swift */,
-				6E5906AF1EB16B50004CBD56 /* IntroViewController.swift */,
+				6E9916091ED3B6C30007E249 /* EditProfileViewController.swift */,
 			);
 			name = Login/SignUp;
 			sourceTree = "<group>";
@@ -260,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E99160A1ED3B6C30007E249 /* EditProfileViewController.swift in Sources */,
 				6EFEBC161ECF887600281CAF /* BaseViewController.swift in Sources */,
 				6E2DA26C1EB7E32900CDF552 /* LoginViewController.swift in Sources */,
 				6EFEBC191ECF8C8A00281CAF /* restaurantCell.swift in Sources */,
@@ -267,7 +268,6 @@
 				6E2DA2791EB7E3D500CDF552 /* MatchesViewController.swift in Sources */,
 				6E2DA26A1EB7E2E800CDF552 /* RegistrationViewController.swift in Sources */,
 				6E2DA2731EB7E37F00CDF552 /* RestaurantViewController.swift in Sources */,
-				6E5906B01EB16B50004CBD56 /* IntroViewController.swift in Sources */,
 				6E2DA2771EB7E3A300CDF552 /* ProfileViewController.swift in Sources */,
 				6E5906AE1EB16B50004CBD56 /* AppDelegate.swift in Sources */,
 				6E2DA27B1EB7E40900CDF552 /* MessagesViewController.swift in Sources */,

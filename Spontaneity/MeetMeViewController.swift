@@ -11,10 +11,29 @@ import UIKit
 
 class MeetMeViewController: UIViewController {
   
+  
+  @IBOutlet weak var meMatchImageView: UIImageView!
+  @IBOutlet weak var theyMatchImageView: UIImageView!
+  @IBOutlet weak var placeImageView: UIImageView!
+  @IBOutlet weak var placeName: UILabel!
+  
+  
+  var restaurantImage: UIImage?
+  var restaurantName: String?
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    
+    if let restName = self.restaurantName {
+      
+      placeName.text = restName
+      placeImageView.image = UIImage(named: restName)
+      
+    }
+  
+    placeImageView.setRounded()
+    meMatchImageView.setRounded()
+    theyMatchImageView.setRounded()
   }
-  
-  
 }

@@ -16,14 +16,17 @@ class RestaurantViewController: BaseViewController {
   
   var restaurants = ["Truckyard", "EasySlider", "Revolver", "Armoury"]
   
+  var currentRestaurant: String!
+  
+  
   let reuseIdentifier = "restaurantCell"
+  let segueIdentifier = "restaurantToMatchesSegue"
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
     setNavBar()
   }
-  
 }
 
 
@@ -43,7 +46,29 @@ extension RestaurantViewController: UITableViewDataSource {
     
     return cell
   }
-
 }
 
+
+
+extension RestaurantViewController: UITableViewDelegate {
+  
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+   
+    currentRestaurant = self.restaurants[indexPath.row]
+    
+    performSegue(withIdentifier: segueIdentifier, sender: self)
+  }
+}
+
+
+extension RestaurantViewController {
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+   
+    let meetMeVC = segue.destination as! MeetMeViewController
+    
+     meetMeVC.restaurantName = self.currentRestaurant
+     meetMeVC.restaurantImage = UIImage(named: self.currentRestaurant)
+  }
+}
 

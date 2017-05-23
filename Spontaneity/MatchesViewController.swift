@@ -10,6 +10,10 @@ import Foundation
 import UIKit
 
 class MatchesViewController: UIViewController {
+ 
+  
+  var restaurantImage: UIImage?
+  var restaurantName: String?
   
   override func viewDidLoad() {
     super.viewDidLoad()
