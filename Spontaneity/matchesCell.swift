@@ -13,5 +13,7 @@ import UIKit
 class matchesCell: UITableViewCell {
   
   
+  @IBOutlet weak var matchImageView: UIImageView!
+  @IBOutlet weak var matchName: UILabel!
   
 }

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class MeetMeViewController: UIViewController {
+class MeetMeViewController: BaseViewController {
   
   
   @IBOutlet weak var meMatchImageView: UIImageView!
@@ -17,13 +17,24 @@ class MeetMeViewController: UIViewController {
   @IBOutlet weak var placeImageView: UIImageView!
   @IBOutlet weak var placeName: UILabel!
   
-  
   var restaurantImage: UIImage?
   var restaurantName: String?
+  
+  var matchImage: UIImage!
+  var matchName: String!
+  
+  //Temp Files
+  var matchImages = [UIImage(named: "FemaleProfile"), UIImage(named: "FemaleProfile2")]
+  var matchNames = ["Selina Gomez", "Taylor Swift"]
+  var index = 0
+  
+  let segueIdentifier = "meetMeToMatchProfileSegue"
+  
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    setNavBar()
     
     if let restName = self.restaurantName {
       
@@ -31,9 +42,42 @@ class MeetMeViewController: UIViewController {
       placeImageView.image = UIImage(named: restName)
       
     }
-  
+    
+    
+    matchName = matchNames[index]
+    matchImage = matchImages[index]
+    theyMatchImageView.image = matchImage
+    
+    
     placeImageView.setRounded()
     meMatchImageView.setRounded()
     theyMatchImageView.setRounded()
   }
+  
+  @IBAction func yesButtonPressed(_ sender: Any) {
+    
+    performSegue(withIdentifier: segueIdentifier, sender: self)
+  }
+  
+  @IBAction func noButtonPressed(_ sender: Any) {
+    index = (index + 1) % matchNames.count
+    
+    matchName = matchNames[index]
+    matchImage = matchImages[index]
+    theyMatchImageView.image = matchImage
+  }
+  
+  
+}
+
+extension MeetMeViewController {
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    let mProfileVC = segue.destination as! MatchProfileViewController
+    
+    mProfileVC.matchImage = matchImage
+    mProfileVC.matchName = matchName
+  }
+  
+  
 }
