@@ -20,6 +20,7 @@ class MessagesViewController: BaseViewController {
   var matchName: String?
   var matchImage: UIImage?
   
+  let segueIdentifier = "messageToProfileSegue"
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -35,6 +36,26 @@ class MessagesViewController: BaseViewController {
     }
     
     dateImageView.setRounded()
+    
+    let tap = UITapGestureRecognizer(target: self, action: #selector(handleTap))
+    
+    dateImageView.addGestureRecognizer(tap)
+    
+    dateImageView.isUserInteractionEnabled = true
+  
+  }
+  
+  func handleTap(sender: UITapGestureRecognizer? = nil) {
+  
+    performSegue(withIdentifier: segueIdentifier, sender: self)
+    
+  }
+
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    let profileVC = segue.destination as! MatchProfileViewController
+    
+    profileVC.matchImage = self.matchImage
+    profileVC.matchName = self.matchName
   }
   
   

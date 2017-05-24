@@ -65,7 +65,8 @@ class MatchProfileViewController: BaseViewController {
   
   func labelBorder (label: UILabel) -> UILabel{
     
-    label.backgroundColor = .clear
+    label.backgroundColor = UIColor(white: 1, alpha: 0.3)
+    label.layer.masksToBounds = true
     label.layer.cornerRadius = 8
     label.layer.borderWidth = 1
     label.layer.borderColor = UIColor.black.cgColor
